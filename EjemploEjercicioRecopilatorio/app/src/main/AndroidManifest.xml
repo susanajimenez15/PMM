@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".acercade" />
-        <activity android:name=".dibujar"></activity>
+        <activity android:name=".dibujar" />
+        <activity android:name=".Factura" />
     </application>
 
 </manifest>
