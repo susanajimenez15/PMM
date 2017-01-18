@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
             new Titular("Fallout 2", "Mutarachas y tochomoscas", R.drawable.img2),
             new Titular("Fallout 3", "Nuka-cola", R.drawable.img3)
     };
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

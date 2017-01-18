@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EjemploGuiado1</string>
+    <string name="hello">Hello World, Solobici!</string>
+    <string name="tituloAplicacion">Solobici Didáctico</string>
+    <string name="Jugar">Jugar</string>
+    <string name="Configurar">Configurar</string>
+    <string name="Acercade">Acerca de</string>
+    <string name="Salir">Salir</string>
+	<string name="TextoAcercaDe">Esta aplicación ha sido desarrollada para el curso del Cefire
+	    de Cheste sobre programación de dispositivos móviles mediante Android.</string>
+</resources>

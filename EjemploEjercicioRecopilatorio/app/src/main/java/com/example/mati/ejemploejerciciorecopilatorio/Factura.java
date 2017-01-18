@@ -13,14 +13,18 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.util.Random;
+
 import static com.example.mati.ejemploejerciciorecopilatorio.R.menu.menu_ctx_imageview;
 
 public class Factura extends AppCompatActivity {
+
     private TextView zona;
     private String zona1;
     private String zona2;
     private ImageView imagen;
     private Coche Destino;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,6 +44,7 @@ public class Factura extends AppCompatActivity {
 
         Bundle objeto = getIntent().getExtras();
         Destino = (Coche) objeto.getSerializable("destino");
+
         if (Destino.getzona().equalsIgnoreCase("Megane")){
             zona.setText(Destino.getcontinente());
         }
@@ -122,6 +127,8 @@ public class Factura extends AppCompatActivity {
                 }
             default:
                 return super.onContextItemSelected(itemMnuContex);
+
+
         }
     }
 }
