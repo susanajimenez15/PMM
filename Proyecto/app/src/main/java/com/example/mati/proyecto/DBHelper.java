@@ -11,7 +11,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class DBHelper extends SQLiteOpenHelper {
 
     // Sentencia SQL para crear tabla Clientes
-    String clientesSQL = "create table Clientes (codigo INTEGER primary key autoincrement, nombre TEXT, password TEXT)";
+    String clientesSQL = "create table Clientes(codigo integer primary key autoincrement,nombre text,password text)";
     String clientesSQLinsert = "insert into Clientes values(1, 'admin', 'admin')";
     // Sentencia SQL para crear la tabla Tratamientos
     //String tratamientoSQL = "create tabla Tratamientos (codigo INTEGER, nombre TEXT, precio DOUBLE)";
