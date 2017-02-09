@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Tratamientos de Belleza"
+        android:textStyle="bold"
+        android:id="@+id/title"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccione uno de los siguientes servicios:"
+        android:id="@+id/textView"
+        android:layout_marginTop="29dp"
+        android:layout_marginStart="21dp"
+        android:layout_below="@+id/title"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:spinnerMode="dropdown"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccione uno de los siguientes extras:"
+        android:id="@+id/textView3"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/spinner"
+        android:layout_alignStart="@+id/spinner" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mascarilla facial"
+        android:id="@+id/extraMascarilla"
+        android:layout_below="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginTop="35dp"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exfoliacón facial"
+        android:id="@+id/extraFacial"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/extraMascarilla"
+        android:layout_alignStart="@+id/extraMascarilla"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Depilación Cejas"
+        android:id="@+id/extraCejas"
+        android:layout_below="@+id/extraFacial"
+        android:layout_alignStart="@+id/extraFacial"
+        android:layout_marginTop="17dp"
+        android:checked="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Realizar Factura"
+        android:id="@+id/botonPedido"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="52dp" />
+</RelativeLayout>
