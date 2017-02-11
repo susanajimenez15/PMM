@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item android:title="Acerca de:"
+            android:id="@+id/acerca" />
+        <item android:title="Mi cuenta"
+            android:id="@+id/informacion" />
+        <item android:title="Localizador de tiendas"
+            android:id="@+id/localizacion" />
+
+</menu>
+
