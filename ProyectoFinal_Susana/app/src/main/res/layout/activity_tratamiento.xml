@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:text="Tratamiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tratamiento"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/id"
+        android:layout_marginStart="18dp"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="viewEnd" />
+
+    <TextView
+        android:text="TextViewaa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView34"
+        android:textColor="@android:drawable/screen_background_light_transparent"
+        android:layout_below="@+id/tratamiento"
+        android:layout_alignParentStart="true"
+        android:visibility="invisible" />
+
+
+</LinearLayout>
